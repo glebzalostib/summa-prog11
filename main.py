@@ -1,8 +1,4 @@
-a = eval(input("Ievadit skaitļus: "))
-
-def countNumbers(teksts):
-  summa = 0
-  for simbols in teksts:
-    summa = summa + int(simbols)
-  return summa
-print(countNumbers(a))
+def countZeros(teksts):
+  return teksts.count("0")
+a = input("Ievadit skaitļus: ")
+print(countZeros(a))
